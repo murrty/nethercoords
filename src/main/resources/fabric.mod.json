@@ -1,0 +1,38 @@
+{
+  "schemaVersion": 1,
+  "id": "nethercoords",
+  "version": "${version}",
+
+  "name": "Nether Coords",
+  "description": "Displays current coordinates and coordinates relative to the opposite dimension",
+  "authors": [
+    "murrty"
+  ],
+  "contact": {
+    "homepage": "https://github.com/murrty",
+    "sources": "https://github.com/murrty"
+  },
+
+  "license": "CC0-1.0",
+  "icon": "assets/nethercoords/icon.png",
+
+  "environment": "*",
+  "entrypoints": {
+    "main": [
+      "net.murrty.nethercoords.main"
+    ]
+  },
+  "mixins": [
+    "nethercoords.mixins.json"
+  ],
+
+  "depends": {
+    "fabricloader": ">=0.11.3",
+    "fabric": "*",
+    "minecraft": "1.17.x",
+    "java": ">=16"
+  },
+  "suggests": {
+    "another-mod": "*"
+  }
+}
